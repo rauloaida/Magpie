@@ -9,9 +9,23 @@ import SwiftUI
 
 @main
 struct SwiftUiMapAppApp: App {
+    
+    @StateObject private var vm = LocationsViewModel()
+  //  var onboarding = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
+//            if onboarding {
+//                LocationsView()
+//                    .environmentObject(vm)
+//            } else {
+//                WelcomeView()
+//                    .environmentObject(vm)
+//            }
+          
+//            LocationsView()
+//                .environmentObject(vm)
         }
     }
 }
