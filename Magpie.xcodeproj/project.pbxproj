@@ -25,7 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E0F539D28F687AE0062B73E /* SwiftUiMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0F539D28F687AE0062B73E /* Magpie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magpie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0F53A028F687AE0062B73E /* SwiftUiMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMapAppApp.swift; sourceTree = "<group>"; };
 		3E0F53A728F687B00062B73E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E0F53AE28F6888D0062B73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		3E0F539E28F687AE0062B73E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E0F539D28F687AE0062B73E /* SwiftUiMapApp.app */,
+				3E0F539D28F687AE0062B73E /* Magpie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E0F539C28F687AE0062B73E /* SwiftUiMapApp */ = {
+		3E0F539C28F687AE0062B73E /* Magpie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E0F53AB28F687B10062B73E /* Build configuration list for PBXNativeTarget "SwiftUiMapApp" */;
+			buildConfigurationList = 3E0F53AB28F687B10062B73E /* Build configuration list for PBXNativeTarget "Magpie" */;
 			buildPhases = (
 				3E0F539928F687AE0062B73E /* Sources */,
 				3E0F539A28F687AE0062B73E /* Frameworks */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUiMapApp;
+			name = Magpie;
 			productName = SwiftUiMapApp;
-			productReference = 3E0F539D28F687AE0062B73E /* SwiftUiMapApp.app */;
+			productReference = 3E0F539D28F687AE0062B73E /* Magpie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E0F539828F687AE0062B73E /* Build configuration list for PBXProject "SwiftUiMapApp" */;
+			buildConfigurationList = 3E0F539828F687AE0062B73E /* Build configuration list for PBXProject "Magpie" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E0F539C28F687AE0062B73E /* SwiftUiMapApp */,
+				3E0F539C28F687AE0062B73E /* Magpie */,
 			);
 		};
 /* End PBXProject section */
@@ -354,6 +354,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Magpie to track your?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
@@ -362,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Raul.SwiftUiMapApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Raul.Magpie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -387,6 +388,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Magpie to track your?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
@@ -395,7 +397,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Raul.SwiftUiMapApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Raul.Magpie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -406,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E0F539828F687AE0062B73E /* Build configuration list for PBXProject "SwiftUiMapApp" */ = {
+		3E0F539828F687AE0062B73E /* Build configuration list for PBXProject "Magpie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E0F53A928F687B10062B73E /* Debug */,
@@ -415,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E0F53AB28F687B10062B73E /* Build configuration list for PBXNativeTarget "SwiftUiMapApp" */ = {
+		3E0F53AB28F687B10062B73E /* Build configuration list for PBXNativeTarget "Magpie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E0F53AC28F687B10062B73E /* Debug */,
